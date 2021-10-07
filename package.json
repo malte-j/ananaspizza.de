@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "source": "src/index.html",
   "scripts": {
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html -d ./build/"
@@ -10,11 +11,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "autoprefixer": "^9.1.0",
-    "node-sass": "^4.9.3",
-    "parcel-bundler": "^1.9.7",
-    "postcss-modules": "^1.3.2"
-  },
-  "repository": "https://github.com/SkyGuardian42/ananaspizza.de"
+  "repository": "https://github.com/SkyGuardian42/ananaspizza.de",
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0-rc.0",
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "@parcel/transformer-webmanifest": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
 }

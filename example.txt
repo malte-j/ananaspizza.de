@@ -1,0 +1,4 @@
+    // "autoprefixer": "^9.1.0",
+    // "node-sass": "^4.9.3",
+    // "parcel-bundler": "^1.9.7",
+    // "postcss-modules": "^1.3.2"

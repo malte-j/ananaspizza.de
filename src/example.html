@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style lang="scss">
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+      width: 100%;
+      perspective: 100px;
+      overflow: auto;
+      background: linear-gradient(rgb(245, 244, 253), rgb(221, 209, 226));
+      display: grid;
+      grid-template-columns:  1fr;
+      grid-template-rows:  1fr;
+      grid-area: 1 / 1 / 1 / 1;
+
+    }
+
+    .one {
+      height: 100px;
+      width: 100px;
+      background-color: black;
+      grid-area: 1 / 1 / 2 / 2;
+      justify-items: center;
+    }
+
+    .two {
+      height: 200px;
+      width: 100px;
+      background-color: rgb(182, 54, 54);
+      grid-area: 1 / 1 / 2 / 2;
+
+    }
+  </style>
+</head>
+<body>
+  <div class="two"></div>
+  <div class="one"></div>
+</body>
+</html>
