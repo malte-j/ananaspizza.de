@@ -2,11 +2,10 @@
   "name": "ananaspizza.de",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "source": "src/index.html",
   "scripts": {
-    "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html -d ./build/"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "keywords": [],
   "author": "",
